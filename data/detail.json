@@ -1,0 +1,55 @@
+{
+    "code": 0,
+    "data": {
+        "data1": "{\"radio\":\"1\",\"number\":66.66,\"switch\":2,\"upload\":\"http://img30.360buyimg.com/jdg/jfs/t1/107382/38/20678/1071/61cc12caE1bbc4e3d/f28577ac3cf79709.png\",\"datetime1\":\"1642148094905\",\"datetime2\":\"2022-01-05T16:40:53+08:00\",\"datetimeRange1\":\"1641265281000,1641697285000\",\"color\":\"#9f96c9\",\"select_single\":\"1\",\"selectMultiplearray\":[\"1\",\"2\"],\"tabs\":{\"a1\":{\"t1\":\"1212\",\"img\":\"http://img30.360buyimg.com/jdg/jfs/t1/107382/38/20678/1071/61cc12caE1bbc4e3d/f28577ac3cf79709.png\"},\"a2\":{\"t2\":\"文本2\"}},\"form\":[{\"q\":\"666\",\"w\":\"2022-01-18T20:33:35+08:00\"},{\"q\":\"12\",\"w\":\"2022-01-19T10:05:31+08:00\"}],\"group\":{\"longtext\":\"这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本这是长文本\",\"img\":\"http://img30.360buyimg.com/jdg/jfs/t1/101480/32/20767/211844/61d40891E22ce1d3e/034b735f1c969553.png\"},\"hidden\":\"隐藏传值\",\"importSubForm\":{\"data\":{\"text\":\"不是默认值\",\"radio\":\"1\",\"number\":66.66,\"upload\":\"http://img30.360buyimg.com/jdg/jfs/t1/107382/38/20678/1071/61cc12caE1bbc4e3d/f28577ac3cf79709.png\"},\"config\":[{\"field\":\"text\",\"label\":\"测试importSubFormtext\",\"type\":\"text\",\"defaultValue\":{\"source\":\"static\",\"value\":\"默认值\"}},{\"field\":\"longtext\",\"label\":\"测试importSubFormlongtext\",\"type\":\"longtext\",\"defaultValue\":{\"source\":\"static\",\"value\":\"默认值\"}},{\"field\":\"number\",\"label\":\"测试importSubFormnumber\",\"type\":\"number\"},{\"field\":\"radio\",\"label\":\"测试importSubFormradio\",\"type\":\"radio\",\"options\":[{\"label\":\"and\",\"value\":\"1\"},{\"label\":\"or\",\"value\":\"0\"}]},{\"label\":\"测试importSubFormupload\",\"field\":\"upload\",\"type\":\"upload\",\"mode\":\"image\"}]}}",
+        "config1": "[{\"field\":\"text\",\"label\":\"测试text\",\"type\":\"text\",\"defaultValue\":{\"source\":\"static\",\"value\":\"默认值\"}},{\"field\":\"longtext\",\"label\":\"测试longtext\",\"type\":\"longtext\",\"defaultValue\":{\"source\":\"static\",\"value\":666}},{\"field\":\"number\",\"label\":\"测试number\",\"type\":\"number\"},{\"field\":\"radio\",\"label\":\"测试radio\",\"type\":\"radio\",\"options\":[{\"label\":\"and\",\"value\":\"1\"},{\"label\":\"or\",\"value\":\"0\"}]},{\"field\":\"switch\",\"label\":\"测试switch\",\"type\":\"switch\",\"valueTrue\":8,\"valueFalse\":1},{\"label\":\"测试upload\",\"field\":\"upload\",\"type\":\"upload\",\"mode\":\"image\"},{\"label\":\"测试datetime-datetime\",\"field\":\"datetime1\",\"type\":\"datetime\",\"submitFormat\":\"x\",\"mode\":\"datetime\"},{\"label\":\"测试datetime-year\",\"field\":\"datetime2\",\"type\":\"datetime\",\"submitFormat\":\"\",\"mode\":\"year\"},{\"field\":\"datetimeRange1\",\"label\":\"测试datetimeRange1\",\"type\":\"datetimeRange\",\"required\":true,\"submitFormat\":\"x\",\"submitFormatMode\":\"comma\",\"mode\":\"datetime\"},{\"label\":\"测试color\",\"field\":\"color\",\"type\":\"color\"},{\"label\":\"测试select_single\",\"field\":\"select_single\",\"type\":\"select_single\",\"mode\":\"dropdown\",\"options\":{\"from\":\"manual\",\"data\":[{\"label\":\"q\",\"value\":\"1\"},{\"label\":\"w\",\"value\":\"2\"},{\"label\":\"e\",\"value\":\"3\"},{\"label\":\"r\",\"value\":\"r\"}]}},{\"label\":\"测试selectMultiplearray\",\"field\":\"selectMultiplearray\",\"type\":\"select_multiple\",\"mode\":\"checkbox\",\"multiple\":{\"type\":\"array\",\"split\":\"'-'\"},\"options\":{\"from\":\"manual\",\"data\":[{\"label\":\"第一条\",\"value\":\"0\"},{\"label\":\"第二条\",\"value\":\"1\"},{\"label\":\"第三条\",\"value\":\"3\"}]}},{\"label\":\"测试tabs\",\"field\":\"tabs\",\"type\":\"tabs\",\"mode\":\"diff\",\"tabs\":[{\"field\":\"a1\",\"label\":\"第一条\",\"fields\":[{\"field\":\"t1\",\"label\":\"文本1\",\"type\":\"text\"},{\"field\":\"img\",\"label\":\"图片1\",\"type\":\"upload\",\"defaultValue\":{\"source\":\"static\",\"value\":\"http://img30.360buyimg.com/jdg/jfs/t1/107382/38/20678/1071/61cc12caE1bbc4e3d/f28577ac3cf79709.png\"},\"mode\":\"image\"}]},{\"field\":\"a2\",\"label\":\"第二条\",\"fields\":[{\"field\":\"t2\",\"label\":\"文本2\",\"type\":\"text\"}]}]},{\"label\":\"测试子表单列表\",\"field\":\"form\",\"type\":\"form\",\"fields\":[{\"label\":\"q\",\"field\":\"q\",\"type\":\"text\"},{\"label\":\"w\",\"field\":\"w\",\"type\":\"datetime\"}],\"primaryField\":\"label\",\"canInsert\":true,\"canCollapse\":true},{\"label\":\"群组\",\"field\":\"group\",\"type\":\"group\",\"fields\":[{\"field\":\"longtext\",\"label\":\"长文本\",\"type\":\"longtext\"},{\"field\":\"img\",\"label\":\"图片\",\"type\":\"upload\",\"mode\":\"image\",\"defaultValue\":{\"source\":\"static\",\"value\":\"http://img30.360buyimg.com/jdg/jfs/t1/101480/32/20767/211844/61d40891E22ce1d3e/034b735f1c969553.png\"}}]},{\"label\":\"测试隐藏传值\",\"field\":\"hidden\",\"type\":\"hidden\",\"defaultValue\":{\"source\":\"static\",\"value\":\"隐藏传值\"}},{\"label\":\"测试import_subform\",\"type\":\"import_subform\",\"field\":\"importSubForm\",\"configFrom\":{\"type\":\"data\",\"dataField\":\"data\",\"configField\":\"config\"}}]",
+        "activityId": "000013",
+        "activityTimeSpan": "1642486180000,1642831783000",
+        "description": "描述描述11",
+        "enabled": true,
+        "endTime": "2022-01-22 14:09:43",
+        "excludeAttribute": "oversea",
+        "excludeAttributeArray": [
+            "oversea"
+        ],
+        "excludeAttributeChArray": [
+            "信息"
+        ],
+        "excludeBrand": "88",
+        "excludeCategory1st": "55",
+        "excludeCategory2nd": "66",
+        "excludeCategory3rd": "77",
+        "id": 13,
+        "includeAttribute": "oversea",
+        "includeAttributeArray": [
+            "oversea"
+        ],
+        "includeAttributeChArray": [
+            "信息"
+        ],
+        "includeBrand": "44",
+        "includeCategory1st": "11",
+        "includeCategory2nd": "22",
+        "includeCategory3rd": "33",
+        "level": 2,
+        "material": "{\"title\":\"展示文案啊啊11\",\"icon\":\"http://img30.360buyimg.com/jdg/jfs/t1/117081/32/20502/1071/61e659b4Eb01b1ba4/270a4b5f9cdcc208.png\",\"jumpUrl\":\"http://beta-plat.jd.com/config/operate/module111\"}",
+        "materialStyle": "[{\"condition\":{\"params\":[]},\"field\":\"title\",\"defaultValue\":{\"source\":\"static\",\"value\":\"\"},\"extra\":{\"params\":[]},\"label\":\"展示文案\",\"placeholder\":\"请输入展示文案\",\"cjkLength\":2,\"type\":\"text\",\"maxLength\":30,\"regExp\":{\"expression\":\"\",\"message\":\"业务标题重复\"},\"required\":true},{\"mode\":\"image\",\"condition\":{\"template\":\"\",\"params\":[]},\"field\":\"icon\",\"defaultValue\":{\"source\":\"static\",\"value\":\"\"},\"extra\":{\"statement\":\"支持png格式，50K以内\",\"params\":[]},\"label\":\"活动icon\",\"requireField\":\"file\",\"type\":\"upload\",\"interface\":{\"condition\":{\"fail\":{},\"enable\":true,\"success\":{}},\"cache\":{},\"method\":\"POST\",\"data\":[],\"withCredentials\":true,\"response\":[{\"path\":\"data\"}],\"domain\":\"jdg\",\"urlParams\":[],\"params\":[],\"contentType\":\"json\",\"url\":\"/upload/imageUpload\"},\"sizeCheck\":{\"sizeUnit\":\"K\",\"maxSize\":50},\"required\":true},{\"condition\":{\"template\":\"\",\"params\":[]},\"field\":\"jumpUrl\",\"defaultValue\":{\"source\":\"static\",\"value\":\"\"},\"extra\":{\"statement\":\"1、跳转地址必须经西格玛审核  2、跳转地址需在APP白名单中，不在可找商详技术处理。\",\"params\":[]},\"label\":\"跳转链接\",\"placeholder\":\"请输入跳转链接\",\"type\":\"text\",\"regExp\":{\"expression\":\"(ht|f)tp(s?)\\\\:\\\\/\\\\/[0-9a-zA-Z]([-.\\\\w]*[0-9a-zA-Z])*(:(0-9)*)*(\\\\/?)([a-zA-Z0-9\\\\-\\\\.\\\\?\\\\,\\\\'\\\\/\\\\\\\\\\\\+&amp;%$#_]*)?\",\"message\":\"请输入正确格式\"},\"required\":true}]",
+        "modified": "2022-01-18 14:12:41",
+        "name": "名称名称11",
+        "preview": false,
+        "previewTime": "2022-01-18 14:12:41",
+        "saleDepartment": {
+            "available": true,
+            "enabled": true,
+            "id": 1,
+            "name": "名称",
+            "provideTimes": 10000,
+            "usedTimes": 11
+        },
+        "saleDepartmentId": 1,
+        "startTime": "2022-01-18 14:09:40",
+        "state": 10
+    },
+    "msg": "success",
+    "success": true
+}
