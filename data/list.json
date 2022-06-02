@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "data": {
+        "pagination": {
+            "page": 2,
+            "pages": 3,
+            "size": 10,
+            "start": 10,
+            "totalRecord": 26
+        },
+        "result": [
+            {
+                "id": 1,
+                "title": "设置一个标题",
+                "background": "http://img30.360buyimg.com/jdg/jfs/t1/191330/4/22760/13192/624f93f3Edd0457fd/aab90ac3f9c510e3.png",
+                "created": "2022-04-07 18:58:14",
+                "status": 1,
+                "createBy": {
+                    "name": "ireneAi"
+                }
+            },
+            {
+                "id": 2,
+                "title": "标题二",
+                "background": "http://img30.360buyimg.com/jdg/jfs/t1/191330/4/22760/13192/624f93f3Edd0457fd/aab90ac3f9c510e3.png",
+                "created": "2022-04-07 18:58:14",
+                "status": 2,
+                "createBy": {
+                    "name": "ireneAi"
+                }
+            }
+        ]
+    },
+    "msg": "success",
+    "success": true
+}
